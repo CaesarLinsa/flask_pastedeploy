@@ -1,0 +1,7 @@
+# pastedeploy 生成路径，并将应用信息配置，使应用可以启动
+# 若需要添加过滤等其他中间件，则在flask app前添加
+PASTE_DEPLOY_CFG="D:/lua/flask-pastedeploy/paste-api.ini"
+# 可以起任意名，若不指定，默认main
+PASTE_DEPLOY_NAME="main"
+# 指明flask app的位置
+APP_URL="app:app"
